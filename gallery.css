@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/keliones/Curonian_Spit_NP_1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.h1 {
+  font-family: arial;
+  text-align: center;
+  margin: 8vh;
+  text-shadow: 2px 2px 5px;
+}
+.links {
+  text-align: center;
+  font-size: large;
+  margin-bottom: 100px;
+}
+a {
+  text-decoration: none;
+}
+.pasirinkimai {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-gap: 200px;
+  grid-template-rows: 100px;
+  padding-left: 150px;
+}
+.vilniusfoto {
+  height: 220px;
+  width: 300px;
+}
+.moletaifoto {
+  height: 220px;
+  width: 300px;
+}
+.trakaifoto {
+  height: 220px;
+  width: 300px;
+}
+.kaunasfoto {
+  height: 220px;
+  width: 300px;
+}
+.klaipedafoto {
+  height: 220px;
+  width: 300px;
+}
+.alytusfoto {
+  height: 220px;
+  width: 300px;
+}
+.divvilnius {
+  height: 50vh;
+  width: 100px;
+}
+.divmoletai {
+  height: 50vh;
+  width: 100px;
+}
+.divtrakai {
+  height: 50vh;
+  width: 100px;
+}
+.divkaunas {
+  height: 50vh;
+  width: 100px;
+}
+.divklaipeda {
+  height: 50vh;
+  width: 100px;
+}
+.divalytus {
+  height: 50vh;
+  width: 100px;
+}
+.vilnius {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
+.moletai {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
+.trakai {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
+.kaunas {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
+.klaipeda {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
+.alytus {
+  font-size: 20px;
+  text-shadow: 2px 2px 5px;
+}
